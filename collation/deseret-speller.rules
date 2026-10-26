@@ -1,0 +1,10 @@
+# ICU collation rules: Deseret Alphabet, "Speller" order.
+# Tailoring of the CLDR root collation.  Feed this string to
+# icu::RuleBasedCollator (C++), com.ibm.icu.text.RuleBasedCollator (Java),
+# or icu.RuleBasedCollator (PyICU).  Lines beginning with # are comments
+# and must be stripped before use (see examples/).
+#
+# 1. Diphthongs AY, OI, OW, EW follow LONG OO (𐐅) and precede SHORT I (𐐆).
+&𐐭<𐐴<<<𐐌<𐑎<<<𐐦<𐐵<<<𐐍<𐑏<<<𐐧
+# 2. YEE, WU, H follow ENG (𐐥) at the end of the alphabet.
+&𐑍<𐐷<<<𐐏<𐐶<<<𐐎<𐐸<<<𐐐

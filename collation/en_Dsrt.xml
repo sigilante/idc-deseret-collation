@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE ldml SYSTEM "../../common/dtd/ldml.dtd">
+<!--
+Proposed CLDR collation tailoring for English written in the Deseret Alphabet (en_Dsrt).
+Source: Illinois Deseret Consortium, https://github.com/sigilante/idc-deseret-collation
+CLDR data files are interpreted according to the LDML specification (http://unicode.org/reports/tr35/)
+
+The tailoring states only the deltas from the CLDR root collation (DUCET order):
+
+  1. The four diphthong letters AY, OI, OW, EW (𐐌 𐐦 𐐍 𐐧) follow the six long
+     vowels and precede the six short vowels.  In root they follow the short
+     vowels (AY, OW) or come last of all (OI, EW).
+  2. YEE, WU, H (𐐏 𐐎 𐐐), in that order, follow ENG (𐐥) at the end of the
+     alphabet.  In root they precede PEE (𐐑), in the order WU, YEE, H.
+
+Everything else (long vowels, short vowels, the consonant series PEE..ENG, and
+lowercase-before-uppercase at the tertiary level) is inherited from root.
+-->
+<ldml>
+	<identity>
+		<version number="$Revision$"/>
+		<language type="en"/>
+		<script type="Dsrt"/>
+	</identity>
+	<collations>
+		<collation type="standard">
+			<cr><![CDATA[
+				&𐐭<𐐴<<<𐐌<𐑎<<<𐐦<𐐵<<<𐐍<𐑏<<<𐐧
+				&𐑍<𐐷<<<𐐏<𐐶<<<𐐎<𐐸<<<𐐐
+			]]></cr>
+		</collation>
+	</collations>
+</ldml>

@@ -1,0 +1,41 @@
+position	group	capital	small	capital_cp	small_cp	unicode_name	ala_lc	lexical_set	ipa
+1	long vowel	𐐀	𐐨	U+10400	U+10428	LONG I	ē	FLEECE	iː
+2	long vowel	𐐁	𐐩	U+10401	U+10429	LONG E	ā	FACE	eɪ
+3	long vowel	𐐂	𐐪	U+10402	U+1042A	LONG A	ä	PALM	ɑː
+4	long vowel	𐐃	𐐫	U+10403	U+1042B	LONG AH	ô	THOUGHT	ɔː
+5	long vowel	𐐄	𐐬	U+10404	U+1042C	LONG O	ō	GOAT	oʊ
+6	long vowel	𐐅	𐐭	U+10405	U+1042D	LONG OO	ū	GOOSE	uː
+7	diphthong	𐐌	𐐴	U+1040C	U+10434	AY	ī	PRICE	aɪ
+8	diphthong	𐐦	𐑎	U+10426	U+1044E	OI	oi	CHOICE	ɔɪ
+9	diphthong	𐐍	𐐵	U+1040D	U+10435	OW	ou	MOUTH	aʊ
+10	diphthong	𐐧	𐑏	U+10427	U+1044F	EW	ew	MULE (ju)	juː
+11	short vowel	𐐆	𐐮	U+10406	U+1042E	SHORT I	i	KIT	ɪ
+12	short vowel	𐐇	𐐯	U+10407	U+1042F	SHORT E	e	DRESS	ɛ
+13	short vowel	𐐈	𐐰	U+10408	U+10430	SHORT A	a	TRAP	æ
+14	short vowel	𐐉	𐐱	U+10409	U+10431	SHORT AH	o	LOT	ɒ
+15	short vowel	𐐊	𐐲	U+1040A	U+10432	SHORT O	u	STRUT	ʌ
+16	short vowel	𐐋	𐐳	U+1040B	U+10433	SHORT OO	ŏŏ	FOOT	ʊ
+17	consonant	𐐑	𐐹	U+10411	U+10439	PEE	p	—	p
+18	consonant	𐐒	𐐺	U+10412	U+1043A	BEE	b	—	b
+19	consonant	𐐓	𐐻	U+10413	U+1043B	TEE	t	—	t
+20	consonant	𐐔	𐐼	U+10414	U+1043C	DEE	d	—	d
+21	consonant	𐐕	𐐽	U+10415	U+1043D	CHEE	ch	—	tʃ
+22	consonant	𐐖	𐐾	U+10416	U+1043E	JEE	j	—	dʒ
+23	consonant	𐐗	𐐿	U+10417	U+1043F	KAY	k	—	k
+24	consonant	𐐘	𐑀	U+10418	U+10440	GAY	g	—	ɡ
+25	consonant	𐐙	𐑁	U+10419	U+10441	EF	f	—	f
+26	consonant	𐐚	𐑂	U+1041A	U+10442	VEE	v	—	v
+27	consonant	𐐛	𐑃	U+1041B	U+10443	ETH	th	—	θ
+28	consonant	𐐜	𐑄	U+1041C	U+10444	THEE	dh	—	ð
+29	consonant	𐐝	𐑅	U+1041D	U+10445	ES	s	—	s
+30	consonant	𐐞	𐑆	U+1041E	U+10446	ZEE	z	—	z
+31	consonant	𐐟	𐑇	U+1041F	U+10447	ESH	sh	—	ʃ
+32	consonant	𐐠	𐑈	U+10420	U+10448	ZHEE	zh	—	ʒ
+33	consonant	𐐡	𐑉	U+10421	U+10449	ER	r	—	ɹ
+34	consonant	𐐢	𐑊	U+10422	U+1044A	EL	l	—	l
+35	consonant	𐐣	𐑋	U+10423	U+1044B	EM	m	—	m
+36	consonant	𐐤	𐑌	U+10424	U+1044C	EN	n	—	n
+37	consonant	𐐥	𐑍	U+10425	U+1044D	ENG	ng	—	ŋ
+38	glide	𐐏	𐐷	U+1040F	U+10437	YEE	y	—	j
+39	glide	𐐎	𐐶	U+1040E	U+10436	WU	w	—	w
+40	glide	𐐐	𐐸	U+10410	U+10438	H	h	—	h

@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite both the repository and the book from which the evidence is drawn."
+title: "Deseret Alphabet collation (Speller order): CLDR tailoring, test data, and reference implementations"
+type: dataset
+authors:
+  - family-names: Davis
+    given-names: N. E.
+    affiliation: Illinois Deseret Consortium
+  - family-names: Shosted
+    given-names: Ryan K.
+    affiliation: University of Illinois Urbana-Champaign; Illinois Deseret Consortium
+repository-code: "https://github.com/sigilante/idc-deseret-collation"
+license: "CC-BY-4.0"
+version: 0.1.0
+date-released: 2026-10-27
+references:
+  - type: book
+    title: "The Deseret Alphabet: \"A Fixed and Unalterable Sound\""
+    authors:
+      - family-names: Shosted
+        given-names: Ryan K.
+      - family-names: Davis
+        given-names: N. E.
+    publisher:
+      name: University of Illinois Press
+    year: 2026
