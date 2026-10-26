@@ -76,8 +76,11 @@ bottom across the page.  Read this way, the initial letters proceed:
 2. the diphthongs, *immediately after the long vowels and before the short
    vowels*, which no presentation specimen does;
 3. short vowels 𐐆 𐐇 𐐈 𐐉 𐐊 𐐋;
-4. consonants 𐐑 … 𐐤 in the standard order (𐐥 cannot head an English word;
-   in final position it follows 𐐤);
+4. consonants 𐐑 … 𐐤 in the standard order (𐐥 heads no section, since no
+   English syllable begins with /ŋ/; in final position it follows 𐐤.  Note
+   that 𐐥 can still be orthographically word-initial in syllabic spellings
+   that use letter names, e.g. 𐐥𐑀𐑊𐐰𐑌𐐼 "England"; the sort rule applies to
+   these unchanged);
 5. 𐐏 𐐎 𐐐, *after* the consonant series rather than before it, and with 𐐏
    before 𐐎 as in D1B.
 

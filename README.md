@@ -89,8 +89,12 @@ speller:  𐐨𐐩𐐪𐐫𐐬𐐭 𐐴𐑎𐐵𐑏 𐐮𐐯𐐰𐐱𐐲𐐳 �
   consistent with this.  Whether the Speller manuscript itself contains
   sections for OI and EW should be confirmed against the page images before
   CLDR submission (see the checklist in `docs/cldr.md`).
-- ENG (𐐥) does not begin English words, so its position is inferred from its
-  word-final behaviour and from every presentation order: after EN.
+- ENG (𐐥) does not begin a word phonologically, so the Speller has no
+  section for it; its position after EN is inferred from word-final position
+  and from every presentation order.  Orthographically it can be
+  word-initial, because some writers spell syllabically with letter names
+  (𐐥𐑀𐑊𐐰𐑌𐐼 "England", 𐐜 "the", 𐐒 "be"); such words sort by the same rule, so
+  𐐥𐑀𐑊𐐰𐑌𐐼 follows every EN-initial word and precedes the glides.
 - The 1860 English–Hopi vocabulary alphabetizes differently (long and short
   vowels interleaved, W before Y).  It is a field document by a single
   missionary; the Speller and the D&C index are institutional products of the
