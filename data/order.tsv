@@ -36,6 +36,6 @@ position	group	capital	small	capital_cp	small_cp	unicode_name	ala_lc	lexical_set
 35	consonant	𐐣	𐑋	U+10423	U+1044B	EM	m	—	m
 36	consonant	𐐤	𐑌	U+10424	U+1044C	EN	n	—	n
 37	consonant	𐐥	𐑍	U+10425	U+1044D	ENG	ng	—	ŋ
-38	glide	𐐏	𐐷	U+1040F	U+10437	YEE	y	—	j
-39	glide	𐐎	𐐶	U+1040E	U+10436	WU	w	—	w
-40	glide	𐐐	𐐸	U+10410	U+10438	H	h	—	h
+38	coalescent	𐐏	𐐷	U+1040F	U+10437	YEE	y	—	j
+39	coalescent	𐐎	𐐶	U+1040E	U+10436	WU	w	—	w
+40	aspirate	𐐐	𐐸	U+10410	U+10438	H	h	—	h

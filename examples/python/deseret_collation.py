@@ -31,7 +31,7 @@ ORDER = (
     "𐐹𐐺𐐻𐐼𐐽𐐾𐐿𐑀"    # PEE BEE TEE DEE CHEE JEE KAY GAY
     "𐑁𐑂𐑃𐑄𐑅𐑆𐑇𐑈"    # EF VEE ETH THEE ES ZEE ESH ZHEE
     "𐑉𐑊𐑋𐑌𐑍"       # ER EL EM EN ENG
-    "𐐷𐐶𐐸"         # glides        YEE, WU, H
+    "𐐷𐐶𐐸"         # coalescents + aspirate  YEE, WU, H
 )
 assert len(ORDER) == 40
 

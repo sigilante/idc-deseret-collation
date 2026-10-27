@@ -32,8 +32,9 @@ order"; a summary with archival references is in
 
 ## The order
 
-Forty letters in five groups.  Lowercase sorts before uppercase at the
-tertiary level, as in CLDR root.
+Forty letters in five groups.  The group names are Pitman's: "coalescents"
+are the semivowels Y and W, and the "aspirate" is H.  Lowercase sorts before
+uppercase at the tertiary level, as in CLDR root.
 
 | Group | Letters (capital / small) |
 |---|---|
@@ -41,7 +42,7 @@ tertiary level, as in CLDR root.
 | Diphthongs | 𐐌𐐴 𐐦𐑎 𐐍𐐵 𐐧𐑏 |
 | Short vowels | 𐐆𐐮 𐐇𐐯 𐐈𐐰 𐐉𐐱 𐐊𐐲 𐐋𐐳 |
 | Consonants | 𐐑𐐹 𐐒𐐺 𐐓𐐻 𐐔𐐼 𐐕𐐽 𐐖𐐾 𐐗𐐿 𐐘𐑀 𐐙𐑁 𐐚𐑂 𐐛𐑃 𐐜𐑄 𐐝𐑅 𐐞𐑆 𐐟𐑇 𐐠𐑈 𐐡𐑉 𐐢𐑊 𐐣𐑋 𐐤𐑌 𐐥𐑍 |
-| Glides | 𐐏𐐷 𐐎𐐶 𐐐𐐸 |
+| Coalescents and aspirate | 𐐏𐐷 𐐎𐐶 𐐐𐐸 |
 
 In Unicode letter names:
 
@@ -94,7 +95,8 @@ speller:  𐐨𐐩𐐪𐐫𐐬𐐭 𐐴𐑎𐐵𐑏 𐐮𐐯𐐰𐐱𐐲𐐳 �
   and from every presentation order.  Orthographically it can be
   word-initial, because some writers spell syllabically with letter names
   (𐐥𐑀𐑊𐐰𐑌𐐼 "England", 𐐜 "the", 𐐒 "be"); such words sort by the same rule, so
-  𐐥𐑀𐑊𐐰𐑌𐐼 follows every EN-initial word and precedes the glides.
+  𐐥𐑀𐑊𐐰𐑌𐐼 follows every EN-initial word and precedes words beginning
+  with 𐐏, 𐐎 or 𐐐.
 - The 1860 English–Hopi vocabulary alphabetizes differently (long and short
   vowels interleaved, W before Y).  It is a field document by a single
   missionary; the Speller and the D&C index are institutional products of the
@@ -107,6 +109,7 @@ collation/en_Dsrt.xml            LDML collation tailoring, ready for CLDR common
 collation/deseret-speller.rules  The same rules as an ICU rule string (comments allowed)
 data/order.tsv                   The 40 letters in order: code points, names, romanization
 data/specimen-orders.tsv         Letter order in ten historical specimens, side by side
+data/epa-orders.tsv              Pitman's phonotypic alphabet orders 1844-1888, for comparison
 docs/evidence.md                 Sources and archival references
 docs/cldr.md                     Submission plan, draft ticket text, checklist
 tests/letters.txt                Sorted letters (conformance target)

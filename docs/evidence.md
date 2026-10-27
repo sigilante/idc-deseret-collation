@@ -104,15 +104,67 @@ the Speller.  It is a single missionary's field document, whereas the Speller
 and the D&C index were produced inside the Deseret Alphabet programme, so the
 Speller order is preferred.
 
-## 6. Assessment
+## 6. Comparison with Pitman's phonotypic orders
+
+The Deseret letters were modelled on Pitman's English Phonotypic Alphabet
+(EPA), and the Deseret presentation order on Pitman's.  Pitman's own order,
+however, was not stable.  The Unicode proposal for the EPA observes that "the
+different versions of EPA specify differing 'systematical' alphabet orders"
+(L2/24-277, §2.5), and its figures reproduce the tables; `data/epa-orders.tsv`
+summarizes eight of them, from 1844 to 1888, beside the two Deseret orders.
+In brief:
+
+| | 1844 No. 11 | 1844 No. 12 | 1846–48 | 1855 Cincinnati | 1856 | 1868 | 1888 |
+|---|---|---|---|---|---|---|---|
+| Vowels before consonants | yes | yes | yes | yes | no | no | no |
+| Long and short vowels | paired by quality | paired by quality | long block, short block | long block, short block | interleaved, by place | interleaved, by place | interleaved, by place |
+| Diphthongs | after Y, W | after short vowels | after short vowels | after short vowels | last (digraphs) | last | last (digraphs) |
+| Y, W, H | Y W between vowels and diphthongs; H last of all | W Y H after diphthongs | Y W H after diphthongs | Y W H after diphthongs | dispersed by place (h y guttural, w labial) | W Y H after the consonants | W Y H after the consonants |
+| L and R | l r | l r | r l | l r | l r | l r | l r |
+
+Three things follow.
+
+- **The Deseret presentation order is EPA 1846–48**, the version current
+  when the regents began work (long block, short block, diphthongs, then the
+  coalescents and aspirate, then the consonants by place and manner).  The
+  Deseret specimens differ only in printing W before Y, which Pitman himself
+  did in 1844 (No. 12) and in his 1852 recapitulation of the 1847 alphabet.
+  The relative order of Y and W was unstable in Pitman and is the one point
+  of instability in the Deseret specimens (D1B has Y, W).
+- **The Speller's placement of the diphthongs**, between the long and short
+  vowels, has no precedent in any EPA version.  Pitman always put them after
+  the short vowels, or, from 1856, at the very end.
+- **The Speller's placement of Y, W, H after the consonants** parallels what
+  Pitman did from 1868 ("… m n ng; l r; w y; h"), and his 1844 No. 11 table
+  already put the aspirate last of all.  Whether the regents knew the
+  post-1856 revisions, or arrived at the arrangement independently, is not
+  established; the Speller (ca. 1859) predates the 1868 table.
+
+So Pitman's order is a useful control but not a source for the Speller order:
+the Speller shares Pitman's vowel-first structure and his consonant sequence,
+and departs from every Pitman version in the position of the diphthongs.
+
+Sources for the tables: *Phonotypic Journal* 3 (1844), pp. 2 and 98 (Nos. 11
+and 12); Pitman, *Paradise Lost* (1846), p. vi; *The Gospel according to
+Matthew, in Phonotypy and Heterotypy* (1847), p. 4; *Phonetic Journal* 7
+(1848), inner cover; *Phonetic Journal* 7 (1852), p. 5; *American Phonetic
+Journal* (Cincinnati, 1855), p. 12; *An English Grammar, printed
+phonetically* (London, 1856), p. 4; Pitman, *The Trial of William Rodger*
+(1868), p. vi; *Phonetic Journal* 47 (1888), p. 1.  All but the first three
+are reproduced as figures 1847a, 1848a, 1852a, 1855a, 1856b, 1868a and 1888a
+in *Fifth Revised Proposal to encode characters for the English Phonotypic
+Alphabet (EPA) in the UCS*, Unicode document L2/24-277 (2024),
+<https://www.unicode.org/L2/L2024/24277-epa-proposal-fifth-edition.pdf>.
+
+## 7. Assessment
 
 Two independent institutional documents (the Speller and the D&C index) agree
 on an order that differs from the presentation order in exactly two respects:
 diphthongs between the long and short vowels, and Y, W, H after the
 consonants.  Everything else matches the presentation order, DUCET, and
-Pitman.  That is the order proposed here.
+Pitman's 1846–48 alphabet.  That is the order proposed here.
 
-## 7. Still to do
+## 8. Still to do
 
 - Obtain and, if permitted, publish page images or a transcription of the
   Speller's section headings so the order can be checked without a visit to
