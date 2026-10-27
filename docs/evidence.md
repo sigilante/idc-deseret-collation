@@ -122,7 +122,7 @@ In brief:
 | Y, W, H | Y W between vowels and diphthongs; H last of all | W Y H after diphthongs | Y W H after diphthongs | Y W H after diphthongs | dispersed by place (h y guttural, w labial) | W Y H after the consonants | W Y H after the consonants |
 | L and R | l r | l r | r l | l r | l r | l r | l r |
 
-Three things follow.
+Four things follow.
 
 - **The Deseret presentation order is EPA 1846–48**, the version current
   when the regents began work (long block, short block, diphthongs, then the
@@ -134,6 +134,9 @@ Three things follow.
 - **The Speller's placement of the diphthongs**, between the long and short
   vowels, has no precedent in any EPA version.  Pitman always put them after
   the short vowels, or, from 1856, at the very end.
+- **L and R flip from time to time in Pitman**: R, L in the 1846–48
+  tables, L, R in 1844, 1852, 1855, 1856, 1868 and 1888.  The Deseret
+  specimens and the Speller are uniformly R, L, again matching 1846–48.
 - **The Speller's placement of Y, W, H after the consonants** parallels what
   Pitman did from 1868 ("… m n ng; l r; w y; h"), and his 1844 No. 11 table
   already put the aspirate last of all.  Whether the regents knew the

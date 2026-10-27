@@ -102,6 +102,27 @@ speller:  𐐨𐐩𐐪𐐫𐐬𐐭 𐐴𐑎𐐵𐑏 𐐮𐐯𐐰𐐱𐐲𐐳 �
   missionary; the Speller and the D&C index are institutional products of the
   Deseret Alphabet programme and are taken as authoritative.
 
+### Relation to Pitman's phonotypy
+
+The Deseret letters and their presentation order were modelled on Isaac
+Pitman's English Phonotypic Alphabet (EPA).  Pitman's own order was not
+stable; `data/epa-orders.tsv` gives eight of his tables from 1844 to 1888,
+and `docs/evidence.md` §6 discusses them.  The points that matter here:
+
+- **The Deseret presentation order is Pitman's 1846–1848 alphabet**: long
+  vowels, short vowels, diphthongs, Y W H, then the consonants by place and
+  manner.  The only Deseret deviation, W before Y, is one Pitman himself
+  made in 1844 and 1852; the Y/W order flipped in both traditions.
+- **Diphthongs between the long and short vowels has no Pitman precedent.**
+  Every EPA version puts them after the short vowels or at the very end.
+  This feature of the Speller order is a Deseret innovation.
+- **Y W H after the consonants has a Pitman parallel, but a later one.**
+  From 1868 Pitman's "order of the Phonetic Alphabet" closes the consonants
+  with "l r; w y; h".  The Speller (ca. 1859) predates this, so it is a
+  parallel, not a source.
+- **L and R flip from time to time in Pitman** (r l in 1847–48, l r in
+  every other table).  Deseret is uniformly R, L, matching 1847–48.
+
 ## Repository layout
 
 ```
